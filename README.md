@@ -49,3 +49,4 @@ Output defaults to `data/processed/wind_farms_clean.csv`.
   summary so that the time series view can state its own coverage.
 
 ## Dashboard
+https://public.tableau.com/app/profile/alejandra.g.cabanillas/viz/Europesoffshorewindpipeline/Dashboard1?publish=yes
