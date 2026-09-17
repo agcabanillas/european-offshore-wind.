@@ -32,7 +32,7 @@ https://emodnet.ec.europa.eu/en/human-activities
 
 Output defaults to `data/processed/wind_farms_clean.csv`.
 
-## Decisions worth knowing
+## Important matters to note
 
 - Records with no recorded capacity are dropped, since a project of unknown size
   cannot contribute to any capacity view. The count is logged.
@@ -49,5 +49,3 @@ Output defaults to `data/processed/wind_farms_clean.csv`.
   summary so that the time series view can state its own coverage.
 
 ## Dashboard
-
-[Add the Tableau Public link here once published.]
