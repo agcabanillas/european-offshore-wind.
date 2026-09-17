@@ -1,0 +1,9 @@
+name: tableau-windfarms
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.2
+  # only needed for the shapefile and WFS routes, not for the CSV export
+  - geopandas>=1.0
+  - pyogrio>=0.9
