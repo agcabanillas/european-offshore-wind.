@@ -50,3 +50,22 @@ Output defaults to `data/processed/wind_farms_clean.csv`.
 
 ## Dashboard
 https://public.tableau.com/app/profile/alejandra.g.cabanillas/viz/Europesoffshorewindpipeline/Dashboard1?publish=yes
+
+
+## Exploratory checks
+
+- GDP per head was checked as a plausibility test on the joined table. All
+  values fall in a defensible European range, so no region is the product of a
+  bad match.
+- Irish regions show GDP per head near 168,000 EUR, a known artefact of
+  multinational profit accounting rather than local economic activity. Their
+  exposure ratios are correspondingly understated.
+- NUTS3 units are not comparable in kind. Some are large rural provinces,
+  others are single city districts such as Emden, which concentrates economic
+  output in a small boundary. Ratios across region types should be read with
+  that in mind.
+- Population was added as point size in the scatter to confirm that capacity
+  and GDP both rise with regional size. They do, so the regions of interest
+  are the small points sitting high on the capacity axis.
+
+  
